@@ -9,6 +9,7 @@ public class Principal {
         System.out.println("Introduce el número de puntos a generar: ");
         Scanner sc = new Scanner(System.in);
         puntosTotales = sc.nextLong();
+        sc.close();
         System.out.println("El número PI es " + Matematicas.generarNumeroPi(puntosTotales));
         }
 }
