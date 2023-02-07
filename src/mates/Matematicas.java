@@ -3,11 +3,7 @@ import java.util.Random;
 import src.aplicacion.Principal;
 
 public class Matematicas{ 
-/**
-* Genera una aproximación al número pi mediante el método de
-* Montecarlo. El parámetro ‘pasos‘ indica el número de puntos
-* generado.
-*/
+
 static double aciertos = 0;
 static double areaCuadrado = 4.0;
 static long pasos = Principal.puntosTotales;
